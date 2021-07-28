@@ -1,7 +1,11 @@
-body{
+body {
   background-color: black;
 }
-
+img {
+  height: 10%;
+  width: 10%;
+  border-radius: 10px 10px;
+}
 #input {
   font-size: xx-large;
   background: #bddcd5;
@@ -36,9 +40,9 @@ button {
 #actions {
   margin-bottom: 5px;
 }
-h1{
+h1 {
   color: white;
 }
-h3{
+h3 {
   color: white;
 }
