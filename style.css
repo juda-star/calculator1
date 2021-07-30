@@ -46,7 +46,7 @@ h1 {
 h3 {
   color: white;
 }
-img {
+h1 {
   width: 100px;
   height: 100px;
   position: relative;
@@ -58,6 +58,6 @@ img {
     left: 0px;
   }
   to {
-    left: 92%;
+    left: 54%;
   }
 }
