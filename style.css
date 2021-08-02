@@ -47,17 +47,37 @@ h3 {
   color: white;
 }
 h1 {
-  width: 100px;
+  width: 150px;
   height: 100px;
   position: relative;
   animation: iconMove 5s infinite;
+  animation-direction: alternate;
 }
 
 @keyframes iconMove {
-  from {
+  0% {
+    background: red;
     left: 0px;
+    top: 0px;
   }
-  to {
-    left: 54%;
+  25% {
+    background: yellow;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background: green;
+    left: 145px;
+    top: 20px;
+  }
+  100% {
+    background: red;
+    left: 0px;
+    top: 0px;
   }
 }
